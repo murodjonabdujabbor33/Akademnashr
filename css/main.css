@@ -1,3 +1,10 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", "san-serif";
+  letter-spacing: 0.5px;
+}
+
 .site-header {
   color: #fff;
 }
