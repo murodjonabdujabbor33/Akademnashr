@@ -12,6 +12,17 @@ body {
   color: #fff;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -30,6 +41,14 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: 0.4s ease, opacity 0.6s ease;
+}
+
+.sitenav-link:hover {
+  color: #ff7500;
+}
+.sitenav-link:active {
+  opacity: 0.6;
 }
 
 .main-link {
@@ -40,6 +59,14 @@ body {
   background: #FF7500;
   color: #fff;
   text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -146,6 +173,16 @@ font-family: "Roboto Condensed", "Roboto", "Arial", "sans-serif";
   display: flex;
   align-items: center;
 }
+.site-footer-socials a {
+  color: #252420;
+}
+.site-footer-socials a:hover {
+  color:#ff7500;
+}
+.site-footer-socials a:active {
+  opacity: 0.6;
+}
+
 
 .site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5);
@@ -164,4 +201,10 @@ font-family: "Roboto Condensed", "Roboto", "Arial", "sans-serif";
 .site-footer-links a {
   text-decoration: none;
   color: #252420;
+}
+.site-footer-links a:hover {
+  color: #ff7500;
+}
+.site-footer-links a:focus {
+  opacity: 0.6;
 }
