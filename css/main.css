@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -7,16 +11,26 @@ body {
 *:focus {
   outline: 2px dotted #ff7500;
   outline-offset: 3px;
+}
+/* CONTAINER */
+.container {
+width: 100%;
+max-width: 1120px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
 
 }
 .site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-top: 5px solid #ff7500;
   background-color: #fff;
 }
-
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo-link {
   transition: opacity 0.4s ease;
 }
